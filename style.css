@@ -1,3 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
-  background-color: green;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+.cor-letra {
+    color: rgb(44, 95, 29);
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.label-color {
+    background-color: rgb(190, 190, 190);
+}
+
+.a-color {
+    background-color: rgb(190, 190, 190);;
+}
+
+a img {
+    width: 50px;
+    height: 50px;
 }
