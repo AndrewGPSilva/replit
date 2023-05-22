@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.226);
+    background-color: #525252;
 }
 
 .cor-letra {
@@ -26,4 +26,40 @@ body {
 a img {
     width: 50px;
     height: 50px;
+}
+
+.habilidades {
+  border: 1px solid black;
+  margin: 10px;
+  height: 550px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.habilidades p, h1 {
+  text-align: center;
+}
+
+.habilidades h1 {
+  color: #ed9a00;
+}
+
+p {
+  color: white;
+}
+
+.letra-especial {
+  color: darkorange;
+}
+
+.teste img {
+  height: 220px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.art1 {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
 }
