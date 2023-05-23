@@ -4,7 +4,21 @@
 }
 
 body {
-  background-color: #526D82;
+  background-color: #121212;
+}
+
+.tudo {
+  border: 0.4px solid gray;
+  padding: 5px;
+  margin: 4px;
+}
+
+.letras {
+  color: white;
+}
+
+.letras:hover {
+  color: orange;
 }
 
 .cor-letra {
@@ -63,9 +77,10 @@ a img {
 
 .habilidades {
   border: 1px solid black;
-  margin: 5px;
-  padding: 5px;
+  margin: 2px;
+  padding: 2px;
   border-radius: 5px;
+  background-image: url(fundo.jpg);
 }
 
 .habilidades p,
@@ -92,7 +107,7 @@ p {
 }
 
 .art1 {
-  border: 1px solid gray;
+  border: 1px solid white;
   padding: 10px;
   border-radius: 10px;
 }
@@ -112,15 +127,14 @@ p {
 }
 
 .sobre {
-  border: 1px solid black;
-  margin: 5px;
-  padding: 5px;
+  padding: 2px;
   border-radius: 5px;
   text-align: center;
 }
 
 .art1-sobre {
-  border: 1px solid gray;
   padding: 10px;
   border-radius: 10px;
+  background-color: #000000;
+  color: gray;
 }
