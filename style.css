@@ -1,31 +1,32 @@
 * {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
-    background-color: #525252;
+  background-color: #526D82;
 }
 
 .cor-letra {
-    color: orange;
+  color: orange;
 }
 
 .navbar {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .label-color {
-    background-color: rgb(190, 190, 190);
+  background-color: rgb(190, 190, 190);
 }
 
 .a-color {
-    background-color: rgb(190, 190, 190);;
+  background-color: rgb(190, 190, 190);
+  ;
 }
 
 a img {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 #typing-effect {
@@ -42,15 +43,19 @@ a img {
   from {
     width: 0;
   }
+
   to {
     width: 100%;
   }
 }
 
 @keyframes blink-caret {
-  from, to {
+
+  from,
+  to {
     border-color: transparent;
   }
+
   50% {
     border-color: black;
   }
@@ -58,12 +63,13 @@ a img {
 
 .habilidades {
   border: 1px solid black;
-  margin: 10px;
+  margin: 5px;
   padding: 5px;
   border-radius: 5px;
 }
 
-.habilidades p, h1 {
+.habilidades p,
+h1 {
   text-align: center;
 }
 
@@ -91,19 +97,23 @@ p {
   border-radius: 10px;
 }
 
+.art1 h1 {
+  font-size: 2.5em;
+}
+
 .progresso {
   margin-top: 10px;
 }
 
 .progresso-bar {
   height: 6px;
-  background-color: green;
+  background-color: #70ff70;
   border-bottom: 1px solid black;
 }
 
 .sobre {
   border: 1px solid black;
-  margin: 10px;
+  margin: 5px;
   padding: 5px;
   border-radius: 5px;
   text-align: center;

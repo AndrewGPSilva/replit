@@ -1,5 +1,5 @@
-const text = "ANDREW SILVA"; // Insira seu nome aqui
-const delay = 300; // Delay em milissegundos entre cada caractere
+const text = "ANDREW SILVA";
+const delay = 300;
 
 let i = 0;
 const typingEffect = () => {
