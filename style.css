@@ -8,8 +8,7 @@ body {
 }
 
 .tudo {
-  border: 0.2px solid gray;
-  padding: 5px;
+  padding: 1px;
   margin: 4px;
 }
 
@@ -51,6 +50,7 @@ a img {
   overflow: hidden;
   animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
   color: #87ffff;
+  font-weight: bold;
 }
 
 @keyframes typing {
@@ -133,10 +133,11 @@ p {
 }
 
 .art1-sobre {
-  padding: 10px;
+  padding: 30px;
   border-radius: 10px;
   background-color: #000000;
   color: gray;
+  justify-content: center;
 }
 
 .progresso img {
@@ -147,4 +148,41 @@ p {
 .img-php {
   width: 65px;
   height: 20px;
+}
+
+.art2-sobre img {
+  height: 250px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.techno-button {
+  height: 35px;
+  padding: 8px;
+  border: none;
+  background-color: #73beff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 3px purple;
+  transition: all 0.3s ease;
+}
+
+.techno-button:hover {
+  background-color: #00aaff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.art3-sobre {
+  margin-top: 20px;
+}
+
+.card-body p {
+  color: black;
 }
