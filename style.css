@@ -8,7 +8,7 @@ body {
 }
 
 .tudo {
-  border: 0.4px solid gray;
+  border: 0.2px solid gray;
   padding: 5px;
   margin: 4px;
 }
@@ -137,4 +137,14 @@ p {
   border-radius: 10px;
   background-color: #000000;
   color: gray;
+}
+
+.progresso img {
+  height: 40px;
+  border-radius: 35px;
+}
+
+.img-php {
+  width: 65px;
+  height: 20px;
 }
