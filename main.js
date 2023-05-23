@@ -1,4 +1,4 @@
-const text = "ANDREW"; // Insira seu nome aqui
+const text = "ANDREW SILVA"; // Insira seu nome aqui
 const delay = 300; // Delay em milissegundos entre cada caractere
 
 let i = 0;
