@@ -181,6 +181,7 @@ p {
 
 .art3-sobre {
   margin-top: 20px;
+  display: none;
 }
 
 .card-body p {
