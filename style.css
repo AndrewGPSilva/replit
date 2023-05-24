@@ -91,7 +91,7 @@ h1 {
 }
 
 p {
-  color: white;
+  color: gray;
 }
 
 .letra-especial {
@@ -111,16 +111,6 @@ p {
 
 .art1 h1 {
   font-size: 2.5em;
-}
-
-.progresso {
-  margin-top: 10px;
-}
-
-.progresso-bar {
-  height: 6px;
-  background-color: #70ff70;
-  border-bottom: 1px solid black;
 }
 
 .sobre {
@@ -186,8 +176,17 @@ p {
 }
 
 body.dark-mode {
-  background-color: #ffffff;
+  background-color: white;
   color: #000000;
+}
+
+.art11 {
+  background-color: white;
+}
+
+.art12 {
+  background-color: white;
+  color: gray;
 }
 
 .alternar-cor {
@@ -195,4 +194,5 @@ body.dark-mode {
   color: #00f2ff;
   border: none;
   box-shadow: 1px 1px 3px purple;
+  font-size: 1.5em;
 }

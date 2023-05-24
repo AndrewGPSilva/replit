@@ -11,7 +11,14 @@ btnsobre.addEventListener('click', () => {
 
 var botaoModoEscuro = document.getElementById("alternar-cor");
 var body = document.body;
+var art1 = document.getElementById("art1-sobre");
+var habilidades = document.getElementById("habilidades");
 
 botaoModoEscuro.addEventListener("click", function() {
   body.classList.toggle("dark-mode");
+});
+
+botaoModoEscuro.addEventListener('click', function() {
+  art1.classList.toggle('art11');
+  habilidades.classList.toggle('art12');
 });
