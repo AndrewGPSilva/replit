@@ -102,7 +102,7 @@ p {
 .teste img {
   height: 220px;
   border-radius: 20px;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 .art1 {
@@ -142,6 +142,9 @@ p {
   height: 200px;
   width: 200px;
   border-radius: 50%;
+  border: 1px solid rgb(255, 0, 0);
+  box-shadow: 1px 1px 3px purple;
+  margin-top: 12px;
 }
 
 .techno-button {
@@ -149,13 +152,14 @@ p {
   padding: 8px;
   border: none;
   background-color: #73beff;
-  color: #fff;
+  color: #000000;
   font-size: 16px;
   font-weight: bold;
   border-radius: 4px;
   text-transform: uppercase;
   box-shadow: 1px 1px 3px purple;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .techno-button:hover {
@@ -170,6 +174,10 @@ p {
 .art3-sobre {
   margin-top: 20px;
   display: none;
+}
+
+.card-body {
+  background-color: #DDE6ED;
 }
 
 .card-body p {
@@ -198,4 +206,27 @@ body.dark-mode {
   font-size: 1.5em;
   padding: 5px;
   width: 180px;
+}
+
+.btn-hamb {
+  bbackground-color: #82d3fc;
+  background-color: #526D82;
+}
+
+.p-footer {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 1080px) {
+  .teste img {
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    border: 1px solid white;
+  }
+
+  .carousel-inner {
+    justify-content: center;
+  }
 }
