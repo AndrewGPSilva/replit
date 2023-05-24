@@ -48,7 +48,7 @@ a img {
   border-right: 1px solid black;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typing 1s steps(40, end), blink-caret 0.75s step-end infinite;
   color: #87ffff;
   font-weight: bold;
 }
@@ -92,6 +92,7 @@ h1 {
 
 p {
   color: gray;
+  font-size: 1.5em;
 }
 
 .letra-especial {
@@ -195,4 +196,6 @@ body.dark-mode {
   border: none;
   box-shadow: 1px 1px 3px purple;
   font-size: 1.5em;
+  padding: 5px;
+  width: 180px;
 }

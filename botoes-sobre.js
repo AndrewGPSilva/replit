@@ -16,9 +16,6 @@ var habilidades = document.getElementById("habilidades");
 
 botaoModoEscuro.addEventListener("click", function() {
   body.classList.toggle("dark-mode");
-});
-
-botaoModoEscuro.addEventListener('click', function() {
   art1.classList.toggle('art11');
   habilidades.classList.toggle('art12');
 });
