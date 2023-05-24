@@ -13,7 +13,7 @@ body {
 }
 
 .letras {
-  color: white;
+  color: red;
 }
 
 .letras:hover {
@@ -76,11 +76,9 @@ a img {
 }
 
 .habilidades {
-  border: 1px solid black;
-  margin: 2px;
-  padding: 2px;
+  padding: 15px;
   border-radius: 5px;
-  background-image: url(fundo.jpg);
+  background-color: black;
 }
 
 .habilidades p,
@@ -107,7 +105,6 @@ p {
 }
 
 .art1 {
-  border: 1px solid white;
   padding: 10px;
   border-radius: 10px;
 }
@@ -186,4 +183,16 @@ p {
 
 .card-body p {
   color: black;
+}
+
+body.dark-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.alternar-cor {
+  background-color: transparent;
+  color: #00f2ff;
+  border: none;
+  box-shadow: 1px 1px 3px purple;
 }

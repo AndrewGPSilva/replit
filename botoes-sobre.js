@@ -8,3 +8,10 @@ btnsobre.addEventListener('click', () => {
   card.style.display = 'block';
   btnsobre.style.background = 'green';
 });
+
+var botaoModoEscuro = document.getElementById("alternar-cor");
+var body = document.body;
+
+botaoModoEscuro.addEventListener("click", function() {
+  body.classList.toggle("dark-mode");
+});
