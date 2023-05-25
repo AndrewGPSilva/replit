@@ -7,7 +7,8 @@ const card2 = document.getElementById("card-dois");
 const card3 = document.getElementById("card-tres");
 
 btnsobre.addEventListener('click', () => {
-  card.style.display = 'block';
+  card.style.display = 'flex';
+  card.style.justifyContent = "center";
   btnsobre.style.background = 'green';
   btnform.style.background = '#73beff';
   btnobj.style.background = '#73beff';
@@ -16,7 +17,8 @@ btnsobre.addEventListener('click', () => {
 });
 
 btnform.addEventListener('click', () => {
-  card2.style.display = 'block';
+  card2.style.display = 'flex';
+  card2.style.justifyContent = "center";
   btnform.style.background = 'green';
   btnsobre.style.background = '#73beff';
   btnobj.style.background = '#73beff';
@@ -25,7 +27,8 @@ btnform.addEventListener('click', () => {
 });
 
 btnobj.addEventListener('click', () => {
-  card3.style.display = 'block';
+  card3.style.display = 'flex';
+  card3.style.justifyContent = "center";
   btnobj.style.background = 'green';
   btnform.style.background = '#73beff';
   btnsobre.style.background = '#73beff';
