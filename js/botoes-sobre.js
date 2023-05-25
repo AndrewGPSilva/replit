@@ -46,3 +46,9 @@ botaoModoEscuro.addEventListener("click", function() {
   art1.classList.toggle('art11');
   habilidades.classList.toggle('art12');
 });
+
+var botao = document.getElementById('sobre');
+
+botao.addEventListener('click', function() {
+  botao.classList.add('clicked');
+});

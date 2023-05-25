@@ -13,6 +13,7 @@ body {
 }
 
 .letras {
+  width: 140px;
   color: red;
 }
 
@@ -231,5 +232,18 @@ body.dark-mode {
   .carrossel-pai {
     display: flex;
     justify-content: flex-start;
+  }
+
+  .letras {
+    width: 100%;
+    color: red;
+  }
+
+  .alternar-cor {
+    margin-left: 150px;
+  }
+
+  .nav-item {
+    margin-left: 20px;
   }
 }
