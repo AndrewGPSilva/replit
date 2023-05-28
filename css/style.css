@@ -220,6 +220,8 @@ body.dark-mode {
   font-weight: bold;
 }
 
+/* versão desktop */
+
 @media (min-width: 1080px) {
   .teste img {
     height: 300px;
