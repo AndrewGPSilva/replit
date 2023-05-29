@@ -13,7 +13,6 @@ body {
 }
 
 .letras {
-  width: 140px;
   color: red;
 }
 
@@ -208,6 +207,7 @@ body.dark-mode {
   font-size: 1.5em;
   padding: 5px;
   width: 180px;
+  margin-top: 7px;
 }
 
 .btn-hamb {
@@ -219,8 +219,6 @@ body.dark-mode {
   margin-bottom: 5px;
   font-weight: bold;
 }
-
-/* versão desktop */
 
 @media (min-width: 1080px) {
   .teste img {

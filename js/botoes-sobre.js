@@ -7,33 +7,48 @@ const card2 = document.getElementById("card-dois");
 const card3 = document.getElementById("card-tres");
 
 btnsobre.addEventListener('click', () => {
-  card.style.display = 'flex';
-  card.style.justifyContent = "center";
-  btnsobre.style.background = 'green';
-  btnform.style.background = '#73beff';
-  btnobj.style.background = '#73beff';
-  card2.style.display = 'none';
-  card3.style.display = 'none';
+  if (card.style.display === 'none') {
+    card.style.display = 'flex';
+    card.style.justifyContent = "center";
+    btnsobre.style.background = 'green';
+    btnform.style.background = '#73beff';
+    btnobj.style.background = '#73beff';
+    card2.style.display = 'none';
+    card3.style.display = 'none';
+  } else {
+    card.style.display = 'none';
+    btnsobre.style.background = '#73beff';
+  }
 });
 
 btnform.addEventListener('click', () => {
-  card2.style.display = 'flex';
-  card2.style.justifyContent = "center";
-  btnform.style.background = 'green';
-  btnsobre.style.background = '#73beff';
-  btnobj.style.background = '#73beff';
-  card.style.display = 'none';
-  card3.style.display = 'none';
+  if (card2.style.display === 'none') {
+    card2.style.display = 'flex';
+    card2.style.justifyContent = "center";
+    btnform.style.background = 'green';
+    btnsobre.style.background = '#73beff';
+    btnobj.style.background = '#73beff';
+    card.style.display = 'none';
+    card3.style.display = 'none';
+  } else {
+    card2.style.display = 'none';
+    btnform.style.background = '#73beff';
+  }
 });
 
 btnobj.addEventListener('click', () => {
-  card3.style.display = 'flex';
-  card3.style.justifyContent = "center";
-  btnobj.style.background = 'green';
-  btnform.style.background = '#73beff';
-  btnsobre.style.background = '#73beff';
-  card.style.display = 'none';
-  card2.style.display = 'none';
+  if (card3.style.display === 'none') {
+    card3.style.display = 'flex';
+    card3.style.justifyContent = "center";
+    btnobj.style.background = 'green';
+    btnform.style.background = '#73beff';
+    btnsobre.style.background = '#73beff';
+    card.style.display = 'none';
+    card2.style.display = 'none';
+  } else {
+    card3.style.display = 'none';
+    btnobj.style.background = '#73beff';
+  }
 });
 
 var botaoModoEscuro = document.getElementById("alternar-cor");
@@ -41,14 +56,8 @@ var body = document.body;
 var art1 = document.getElementById("art1-sobre");
 var habilidades = document.getElementById("habilidades");
 
-botaoModoEscuro.addEventListener("click", function() {
+botaoModoEscuro.addEventListener("click", function () {
   body.classList.toggle("dark-mode");
   art1.classList.toggle('art11');
   habilidades.classList.toggle('art12');
-});
-
-var botao = document.getElementById('sobre');
-
-botao.addEventListener('click', function() {
-  botao.classList.add('clicked');
 });
